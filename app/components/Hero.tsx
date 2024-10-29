@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
 
         {/* Short description */}
         <p className="text-xl mb-8">
-          Showcasing my best design projects.
+          Showcasing some of my best design projects.
         </p>
 
         {/* Design software icons */}
