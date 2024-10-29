@@ -19,3 +19,22 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* styles/globals.css or app/components/Gallery.module.css */
+.my-masonry-grid {
+  display: flex;
+  margin-left: -30px; /* Adjust based on your gap */
+  width: auto; /* Allows the grid to grow */
+}
+
+.my-masonry-grid_column {
+  padding-left: 30px; /* Adjust based on your gap */
+  background-clip: padding-box; /* Prevents the background from bleeding */
+}
+
+/* Optional: style the images to maintain aspect ratio */
+.my-masonry-grid img {
+  display: block;
+  width: 100%; /* Ensure images fill their container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: for rounded corners */
+}
